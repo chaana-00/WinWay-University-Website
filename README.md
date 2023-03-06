@@ -71,3 +71,4 @@ CREATE TABLE results(
 	sign		varchar(50)	NOT NULL,
 );
 
+![Winway](https://user-images.githubusercontent.com/89802304/223206220-080c1bed-52ae-44d0-88bd-c9ba5f564b2c.jpg)
