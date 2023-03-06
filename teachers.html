@@ -1,0 +1,952 @@
+<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//  Teacher Detailis Page
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WinWay University</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Start Header -->
+    <header>
+        <div class="header_top_area my-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="header_top d-flex justify-content-between">
+                            <div class="site_logo">
+                                <a href="index.html"><img src="assets/images/logo.png" alt="logo" class="img-fluid"></a>
+                            </div>
+                            <div class="site_info d-flex justify-content-between">
+                                <div class="single_info">
+                                    <img src="assets/images/location.png" alt="Location" class="img-fluid">
+                                    <div class="info_data">
+                                        <h6>Location</h6>
+                                        <p>WinWay University, Matara, Sri Lanka.</p>
+                                    </div>
+                                </div>
+                                <div class="single_info">
+                                    <img src="assets/images/phone.png" alt="Location" class="img-fluid">
+                                    <div class="info_data">
+                                        <h6>Phone</h6>
+                                        <a style="color: #666"
+                                            href="tel:+(94) 76 822 85 44″>Call the WinWay now! +(94) 76 822 85 44"><i
+                                                class="ti-mobile"></i>+(94) 76 822 85 44</a>
+                                    </div>
+                                </div>
+                                <div class="single_info">
+                                    <button class="special-button"
+                                        onclick="window.location.href = 'apply_form.html';">Apply Now <i
+                                            class="fa fa-angle-right"></i> <span class="button_icon"><i
+                                                class="far fa-file-alt"></i></span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-menu-area bg_dark_mobile">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="main-menu default_bg">
+                            <nav class="navbar navbar-expand-lg">
+                                <div class="mobile_site_logo d-none">
+                                    <a href="index.html"><img src="assets/images/footer_logo.png" alt="logo"
+                                            class="img-fluid"></a>
+                                </div>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                    data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <i class="fa fa-bars"></i>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="index.html">Home</a>
+                                        </li>
+                                        <!--<li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          Home
+                                        </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                <a class="dropdown-item" href="index.html">Home - University</a>
+                                                <a class="dropdown-item" href="index-2.html">Home - Modern University</a>
+                                                <a class="dropdown-item" href="index-3.html">Home - Online Courses</a>
+                                                <a class="dropdown-item" href="index-4.html">Home - Kindergarten</a>
+                                            </div>
+                                        </li>-->
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="about.html">About</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="courses.html">Courses</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                                role="button" data-toggle="dropdown">
+                                                Pages
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <li><a class="dropdown-item" href="departments.html">Departments</a>
+                                                </li>
+                                                <!--<li class="nav-item dropdown">
+                                                    <a class="dropdown-item dropdown-toggle" href="#" id="blogDropdown1" role="button" data-toggle="dropdown">
+                                                        Blog
+                                                    </a>
+                                                    <ul class="dropdown-menu" aria-labelledby="blogDropdown1">
+                                                        <li><a class="dropdown-item" href="blog_01.html">Blog 1</a></li>
+                                                        <li><a class="dropdown-item" href="blog_02.html">Blog 2</a></li>
+                                                    </ul>
+                                                </li>-->
+                                                <li><a class="dropdown-item" href="blog_01.html">Blog</a></li>
+                                                <li><a class="dropdown-item" href="teachers.html">Teachers</a></li>
+                                                <li><a class="dropdown-item" href="events.html">Events</a></li>
+                                                <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="students.php" class="nav-link" id="blod_pages">
+                                                Students
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="result.php" class="nav-link">Result</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="notice.html" class="nav-link">Notice</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="contact.html" class="nav-link">Contact</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#search_modal" data-toggle="modal" data-target="#search_modal"
+                                                class="nav-link"><i class="fa fa-search"></i></a>
+                                        </li>
+                                    </ul>
+                                    <div class="collapse-bar">
+                                        <a class="navbar-brand" data-toggle="collapse" href="#languages_options"><i
+                                                class="fa fa-bars"></i></a>
+                                        <div class="option-menu collapse" id="languages_options">
+                                            <nav>
+                                                <ul>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">English</a>
+                                                        <a class="nav-link" href="#">Bangla</a>
+                                                        <a class="nav-link" href="#">Hindi</a>
+                                                        <a class="nav-link" href="#">Spanish</a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Button trigger modal -->
+            <!-- Start Search Modal -->
+            <div class="modal fade" id="search_modal">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title sm-sub-title">Search Here</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="search-widget">
+                                <form action="#">
+                                    <input type="text" class="form-control" placeholder="Search Here">
+                                    <button type="submit"><i class="fas fa-search"></i></button>
+                                </form>
+                            </div>
+                            <div class="search-results">
+                                <h5 class="my-4 sm-sub-title">10 Search Results Found</h5>
+                                <div class="theme-list">
+                                    <ul>
+                                        <li><a href="#">Smply dummy text of the printing and typesetting industry</a>
+                                        </li>
+                                        <li><a href="#">Mauris at varius orci. Vestibulum um felis eu nisl pulvinar</a>
+                                        </li>
+                                        <li><a href="#">Welcome To Our Campus For Learn</a></li>
+                                        <li><a href="#">The point of using Lorem Ipsum is that it has a more-or-less
+                                            </a></li>
+                                        <li><a href="#">has a more-or-less normal distribution of letters, as opposed to
+                                                using.</a></li>
+                                        <li><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. </a>
+                                        </li>
+                                        <li><a href="#">Build Education Website Using WP</a></li>
+                                        <li><a href="#">Build Education Website Using WordPress </a></li>
+                                        <li><a href="#">And Other Modern Technology</a></li>
+                                        <li><a href="#">assumenda est. Our friendly support team is standing.</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="button_one" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Search Modal -->
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Hero Area -->
+    <section class="hero-section height-470" style="background-image:url(assets/images/about_us.jpg)"
+        data-aos="fade-up">
+        <div class="hero-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="page-hrader text-white text-center">
+                            <h1 class="display-3">Our Teachers</h1>
+                            <div class="page-breadcrumb">
+                                <p><a class="text-white" href="index.html">Home</a> - Our Teachers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero Area -->
+    <!-- Start Our Team Carousel -->
+    <section class="team-section section-pt" data-aos="fade-up">
+        <div class="our-team-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-5">
+                        <div class="our-teachers-wrapper shadow-lg">
+                            <div class="single-team bg-white">
+                                <div class="member-image-2">
+                                    <a href="#search_modal1" data-toggle="modal" data-target="#search_modal1"
+                                        class="nav-link"><img src="../educa/assets/images/member_01.jpg"
+                                            alt="team member" class="img-fluid"></a>
+                                    <div class="social-profile-6">
+                                        <ul>
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="member-info-4 text-center border-bottom-2 p-3">
+                                    <div class="designation">
+                                        <h5> Eng. Gihan Weerasekara</h5>
+                                        <span> Consultant/ Lecturer<br>Head Of Engineering</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-5">
+                        <div class="our-teachers-wrapper shadow-lg">
+                            <div class="single-team bg-white">
+                                <div class="member-image-2">
+                                    <a href="#search_modal2" data-toggle="modal" data-target="#search_modal2"
+                                        class="nav-link"><img src="assets/images/member_02.jpg" alt="team member"
+                                            class="img-fluid"></a>
+                                    <div class="social-profile-6">
+                                        <ul>
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="member-info-4 text-center border-bottom-2 p-3">
+                                    <div class="designation">
+                                        <h5> Ms. B A U Hapuarachchi</h5>
+                                        <span> Consultant/ Lecturer<br>Head Of Arts</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-5 mb-5">
+                        <div class="our-teachers-wrapper shadow-lg">
+                            <div class="single-team bg-white">
+                                <div class="member-image-2">
+                                    <a href="#search_modal3" data-toggle="modal" data-target="#search_modal3"
+                                        class="nav-link"><img src="assets/images/member_03.jpg" alt="team member"
+                                            class="img-fluid"></a>
+                                    <div class="social-profile-6">
+                                        <ul>
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="member-info-4 text-center border-bottom-2 p-3">
+                                    <div class="designation">
+                                        <h5> Mr. Chamika Bandara</h5>
+                                        <span> Consultant/ Lecturer<br>Head Of Computing</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-xs-5">
+                        <div class="our-teachers-wrapper shadow-lg">
+                            <div class="single-team bg-white">
+                                <div class="member-image-2">
+                                    <a href="#search_modal4" data-toggle="modal" data-target="#search_modal4"
+                                        class="nav-link"><img src="assets/images/member_04.jpg" alt="team member"
+                                            class="img-fluid"></a>
+                                    <div class="social-profile-6">
+                                        <ul>
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="member-info-4 text-center border-bottom-2 p-3">
+                                    <div class="designation">
+                                        <h5> Ms. Rannulu Lakmali De Zoysa</h5>
+                                        <span> Consultant/ Lecturer<br>Head Of Business Management</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-mob-5">
+                        <div class="our-teachers-wrapper shadow-lg">
+                            <div class="single-team bg-white">
+                                <div class="member-image-2">
+                                    <a href="#search_modal5" data-toggle="modal" data-target="#search_modal5"
+                                        class="nav-link"><img src="assets/images/member_05.jpg" alt="team member"
+                                            class="img-fluid"></a>
+                                    <div class="social-profile-6">
+                                        <ul>
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="member-info-4 text-center border-bottom-2 p-3">
+                                    <div class="designation">
+                                        <h5> Dr. Buddhima Subasinghe</h5>
+                                        <span> Head Student Life & Engagement<br>Head Of Design</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="our-teachers-wrapper shadow-lg">
+                            <div class="single-team bg-white">
+                                <div class="member-image-2">
+                                    <a href="#search_modal6" data-toggle="modal" data-target="#search_modal6"
+                                        class="nav-link"><img src="assets/images/member_06.jpg" alt="team member"
+                                            class="img-fluid"></a>
+                                    <div class="social-profile-6">
+                                        <ul>
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="member-info-4 text-center border-bottom-2 p-3">
+                                    <div class="designation">
+                                        <h5> Mr. Thisara Weerasinghe</h5>
+                                        <span> Consultant/ Lecturer<br>Head Of Bio-Technology</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Our Team Carousel -->
+    <!-- Teacher 1 - Teacher Section -->
+    <div class="modal fade" id="search_modal1">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title sm-sub-title">Head Of Engineering</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <section class="intro-section section-ptb bg_dark_9" data-aos="fade-up">
+                    <div class="intro-area">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-5 mb-3d-5">
+                                    <div class="half_columnn_image">
+                                        <img src="assets/images/member_01.jpg" alt="author image">
+                                    </div>
+                                </div>
+                                <div class="col-lg-7">
+                                    <div class="half_column_content">
+                                        <h3>ENG. GIHAN WEERASEKARA</h3>
+                                        <h6>Consultant/ Lecturer</h6>
+                                        <p>Mr. Gihan Weerasekara is a lecturer in School of Computing at the Winway
+                                            since 2011.  Mr. Gihan Weerasekara is a Member of the Institute of Engineers
+                                            Sri Lanka (IESL) and a life Member of the Sri Lankan Association for the
+                                            Advancement of Science (SLAAS). He has taught courses on various Engineering
+                                            and Mathematics subjects for Degree students. He has also supervised
+                                            numerous Diploma and undergraduate dissertations. He has published articles
+                                            in several international journals and also actively involved with journals
+                                            as a reviewer of research papers and gained experience through membership of
+                                            scientific committees for conferences..</p>
+                                        <div class="secondary-content">
+                                            <h6>Qualifications</h6>
+                                            <div class="theme-list-4">
+                                                <ul>
+                                                    <li>PhD in Astrophysics (Reading)</li>
+                                                    <li>BSc Engineering (Hon’s) University of Moratuwa (Electronic and
+                                                        Telecommunication Engineering)</li>
+                                                    <li>MIESL, MSLAAS</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="post-meta-info">
+                                            <ul>
+                                                <li> <i class="fa fa-mobile-alt"></i> +94 115 321 000</li>
+                                                <li><i class="fas fa-map-marker-alt"></i> WinWay University, Matara, Sri
+                                                    Lanka.</li>
+                                                <li><i class="fas fa-envelope"></i> gihan@winway.com</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="modal-footer">
+                    <button type="button" class="button_one" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Teacher 1 - Teacher Section -->
+    <!-- Teacher 2 - Teacher Section -->
+    <div class="modal fade" id="search_modal2">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title sm-sub-title">Head Of Art</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <section class="intro-section section-ptb bg_dark_9" data-aos="fade-up">
+                    <div class="intro-area">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-5 mb-3d-5">
+                                    <div class="half_columnn_image">
+                                        <img src="assets/images/member_02.jpg" alt="author image">
+                                    </div>
+                                </div>
+                                <div class="col-lg-7">
+                                    <div class="half_column_content">
+                                        <h3>Ms. B A U Hapuarachchi</h3>
+                                        <h6>Consultant/ Lecturer</h6>
+                                        <p>Ms. B A U Hapuarachchi is a Consultant/ Lecturer (from SOCE) at WinWay since
+                                            2018.  She teaches English and Communication subjects for Certificate,
+                                            Diploma, and Degree students.</p>
+                                        <div class="secondary-content">
+                                            <h6>Qualifications : </h6>
+                                            <div class="theme-list-4">
+                                                <ul>
+                                                    <li>MA in Ling. (UOK) (2017 - 2019)</li>
+                                                    <li>BA in Soc English, and IR (UOC) (2010 – 2014)</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="post-meta-info">
+                                            <ul>
+                                                <li> <i class="fa fa-mobile-alt"></i> +94 117 321 000</li>
+                                                <li><i class="fas fa-map-marker-alt"></i> WinWay University, Matara, Sri
+                                                    Lanka.</li>
+                                                <li><i class="fas fa-envelope"></i> bhagya@winway.com</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="modal-footer">
+                    <button type="button" class="button_one" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Teacher 2 - Teacher Section -->
+    <!-- Teacher 3 - Teacher Section -->
+    <div class="modal fade" id="search_modal3">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title sm-sub-title">Head Of Computing</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <section class="intro-section section-ptb bg_dark_9" data-aos="fade-up">
+                    <div class="intro-area">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-5 mb-3d-5">
+                                    <div class="half_columnn_image">
+                                        <img src="assets/images/member_03.jpg" alt="author image">
+                                    </div>
+                                </div>
+                                <div class="col-lg-7">
+                                    <div class="half_column_content">
+                                        <h3>Mr. Chamika Bandara</h3>
+                                        <h6>Consultant/ Lecturer</h6>
+                                        <p>Mr. Chamika Bandara is a lecturer in School of Computing at the WinWay since
+                                            2017. Mr Milan Maduranga is a Globally recognized, experienced Microsoft
+                                            Certified Trainer and Cisco Certified Academy Instructor who has more than
+                                            10-year experience with CISCO and Microsoft Training. He is Currently
+                                            holding more than 15 Internationally recognized Vender certifications. Also,
+                                            he is working in the IT industry as a IT consultant for Networking and
+                                            Cybersecurity filed. He has taught courses on various Networking and
+                                            Cybersecurity subjects for Certificate / Diploma/ Degree students. He has
+                                            also supervised numerous Diploma and undergraduate dissertations.</p>
+                                        <div class="secondary-content">
+                                            <h6>Qualifications: </h6>
+                                            <div class="theme-list-4">
+                                                <ul>
+                                                    <li>MSc IS, MIET (London)</li>
+                                                    <li>BEng (Hons) Digital Communication & Electronics</li>
+                                                    <li>AMIIESL</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="post-meta-info">
+                                            <ul>
+                                                <li> <i class="fa fa-mobile-alt"></i> +94 773 972 372</li>
+                                                <li><i class="fas fa-map-marker-alt"></i> WinWay University, Matara, Sri
+                                                    Lanka.</li>
+                                                <li><i class="fas fa-envelope"></i> chamika@winway.com</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="modal-footer">
+                    <button type="button" class="button_one" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Teacher 3 - Teacher Section -->
+    <!-- Teacher 4 - Teacher Section -->
+    <div class="modal fade" id="search_modal4">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title sm-sub-title">Head Of Business Management</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <section class="intro-section section-ptb bg_dark_9" data-aos="fade-up">
+                    <div class="intro-area">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-5 mb-3d-5">
+                                    <div class="half_columnn_image">
+                                        <img src="assets/images/member_04.jpg" alt="author image">
+                                    </div>
+                                </div>
+                                <div class="col-lg-7">
+                                    <div class="half_column_content">
+                                        <h3>Ms. Rannulu Lakmali De Zoysa</h3>
+                                        <h6>Consultant/ Lecturer</h6>
+                                        <p>Ms. R. L. De Zoysa is a lecturer in (School of Computing and Engineering) at
+                                            the WinWay since (2007).  She has taught courses on various IT subjects for
+                                            Certificate/ Diploma/ Higher Diploma and Degree students. She has also
+                                            supervised numerous Diploma and undergraduate dissertations.</p>
+                                        <div class="secondary-content">
+                                            <h6>Areas of Expertise</h6>
+                                            <div class="theme-list-4">
+                                                <ul>
+                                                    <li>Masters in Information Systems Management (MISM) University of
+                                                        Colombo</li>
+                                                    <li>Post Graduate Diploma in Information Systems Management (PgDISM)
+                                                        University of Colombo</li>
+                                                    <li>BSc (Hons) Management Information Systems, National University
+                                                        of Ireland</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="post-meta-info">
+                                            <ul>
+                                                <li> <i class="fa fa-mobile-alt"></i> +94 777 358 764</li>
+                                                <li><i class="fas fa-map-marker-alt"></i> WinWay University, Matara, Sri
+                                                    Lanka.</li>
+                                                <li><i class="fas fa-envelope"></i> lakmali@winway.com</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="modal-footer">
+                    <button type="button" class="button_one" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Teacher 4 - Teacher Section -->
+    <!-- Teacher 5 - Teacher Section -->
+    <div class="modal fade" id="search_modal5">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title sm-sub-title">Head Of Design</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <section class="intro-section section-ptb bg_dark_9" data-aos="fade-up">
+                    <div class="intro-area">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-5 mb-3d-5">
+                                    <div class="half_columnn_image">
+                                        <img src="assets/images/member_05.jpg" alt="author image">
+                                    </div>
+                                </div>
+                                <div class="col-lg-7">
+                                    <div class="half_column_content">
+                                        <h3>Dr. Buddhima Subasinghe</h3>
+                                        <h6>Head Student Life & Engagement</h6>
+                                        <p>Dr. Buddhima Hansinie Subasinghe is an academic, researcher, scholar & a TEDx
+                                            Speaker. The youngest PhD holder of South Asia who graduated at 24 yrs of
+                                            age from the University of Peradeniya in the field of Computer Science. She
+                                            holds 11 years of experience in her academic career & also a decade in media
+                                            as a presenter of Sri Lanka Rupavahini Cooperation. She is the former Head
+                                            Computer Science at the School of Computing & Engineering of (NIBM) &
+                                            currently serves as Head Student Life & Engagement at the National Institute
+                                            of Business Management. She was the Toastmasters International (USA)
+                                            Leadership and Training Institute Chair, District 82, Sri Lanka (2017-2018).
+                                            She served as the Area Director of Area G5, Toastmasters International,
+                                            District 82 (2020-2021). She is currently appointed as Asst. Director
+                                            Program Quality of Division I, District 82, Toastmasters International. She
+                                            was the President of the NIBM Toastmasters Club. She was also awarded the
+                                            emerging ICT Leader of the Year National Excellence Award at Infotel 2017.
+                                            She was Internationally recognized at the Top 50 Women Awards 2018 for her
+                                            Leadership Excellence in Information Technology. She is a Fellow Member of
+                                            the Chartered Institute of Professional Managers (CIPM), Sri Lanka. She
+                                            serves as a Task Force Member of the Policy Formulation of the New Education
+                                            Reforms of Ministry of Education of Sri Lanka. She is also a keynote speaker
+                                            at many National and International forums who empowers youth and women in
+                                            the fields of leadership, communication and engineering.</p>
+                                        <div class="secondary-content">
+                                            <h6>Areas of Expertise</h6>
+                                            <div class="theme-list-4">
+                                                <ul>
+                                                    <li>Doctor of Philosophy (PhD) Computer Science - University of
+                                                        Peradeniya, (2013-2016)</li>
+                                                    <li>B.Sc. Special (Hons.) Degree in Information Technology
+                                                        specialized in the field of Information Technology, Sri Lanka
+                                                        Institute of Information Technology (2009-2012)</li>
+                                                    <li>B.Sc. Degree in Information Technology, Curtin University,
+                                                        Australia (2010-2012)</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="post-meta-info">
+                                            <ul>
+                                                <li> <i class="fa fa-mobile-alt"></i> +(94) 76 822 85 44</li>
+                                                <li><i class="fas fa-map-marker-alt"></i> WinWay University, Matara, Sri
+                                                    Lanka.</li>
+                                                <li><i class="fas fa-envelope"></i> buddhima@winway.com</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="modal-footer">
+                    <button type="button" class="button_one" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Teacher 5 - Teacher Section -->
+    <!-- Teacher 6 - Teacher Section -->
+    <div class="modal fade" id="search_modal6">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title sm-sub-title">Head Of Bio-Technology</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <section class="intro-section section-ptb bg_dark_9" data-aos="fade-up">
+                    <div class="intro-area">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-5 mb-3d-5">
+                                    <div class="half_columnn_image">
+                                        <img src="assets/images/member_06.jpg" alt="author image">
+                                    </div>
+                                </div>
+                                <div class="col-lg-7">
+                                    <div class="half_column_content">
+                                        <h3>Mr. Thisara Weerasinghe</h3>
+                                        <h6>Consultant/ Lecturer</h6>
+                                        <p>Qualifications
+                                            Master of Science, Information Technology, University of Moratuwa, Sri Lanka
+                                            2011 – 2013Bachelor of Science (MIS), University College Dublin, Ireland
+                                            2007–2009Higher National Diploma in Computer-Based Information Systems,
+                                            NIBM, Sri Lanka 2005-2006Diploma in Computer Systems Design NIBM, Sri Lanka
+                                            2004-2005
+                                            Biography
+                                            Mr. Thisara Weerasinghe is a lecturer and consultant at the School of
+                                            Computing and Engineering, National Institute of Business Management
+                                            (NIBM).  He is a member of the British Computing Society and the Computer
+                                            Society of Sri Lanka. He has Introduced several computing courses for the
+                                            School of Computing and Engineering while directing computing courses from
+                                            foundation to degree level. He has been lecturing various computing subjects
+                                            for undergraduate students while supervising numerous undergraduate
+                                            dissertations. Also, he worked in the IT industry as a software engineer
+                                            before joining NIBM as a lecturer/Consultant. Mr.Thisara has participated in
+                                            several training programs conducted by well famous international
+                                            universities such as University College Dublin Ireland, University
+                                            Technology Malaysia, Coventry University UK. In addition, he has represented
+                                            several interview panels of public and private organizations in Sri Lanka
+                                            for IT recruitments. Currently, he is reading his Ph.D. in Management and
+                                            Science University, Malaysia.</p>
+                                        <div class="secondary-content">
+                                            <h6>Areas of Expertise</h6>
+                                            <div class="theme-list-4">
+                                                <ul>
+                                                    <li>Master of Science, Information Technology, University of
+                                                        Moratuwa, Sri Lanka 2011 – 2013</li>
+                                                    <li>Bachelor of Science (MIS), University College Dublin, Ireland
+                                                        2007–2009</li>
+                                                    <li>Higher National Diploma in Computer-Based Information Systems,
+                                                        NIBM, Sri Lanka 2005-2006</li>
+                                                    <li>Diploma in Computer Systems Design NIBM, Sri Lanka 2004-2005
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="post-meta-info">
+                                            <ul>
+                                                <li> <i class="fa fa-mobile-alt"></i> +(94) 76 822 85 44</li>
+                                                <li><i class="fas fa-map-marker-alt"></i> WinWay University, Matara, Sri
+                                                    Lanka.</li>
+                                                <li><i class="fas fa-envelope"></i> thisara@winway.com</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="modal-footer">
+                    <button type="button" class="button_one" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Teacher 6 - Teacher Section -->
+
+    <!-- Start Footer -->
+    <footer data-aos="fade-up">
+        <div class="subscribe-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="subscribe-wrapper p-5 bg-white">
+                            <div class="row align-items-center">
+                                <div class="col-md-6">
+                                    <div class="subscribe-text">
+                                        <h2>Newsletters</h2>
+                                        <p>Keep your Email here to get New Alerts</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="subscribe-form">
+                                        <form action="#">
+                                            <input type="email" class="form-control"
+                                                placeholder="Enter Your Email Here">
+                                            <button type="submit">Subscribe</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-area default_bg">
+            <div class="footer-top section-ptb-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 mb-xs-5">
+                            <div class="single_widget">
+                                <div class="address-widget">
+                                    <div class="footer-logo">
+                                        <a href="index.html"><img src="assets/images/footer_logo.png" alt=""
+                                                class="img-fluid"></a>
+                                    </div>
+                                    <p>WinWay University, Matara, Sri Lanka.</p><br>
+                                    <a style="color: #fff"
+                                        href="mailto:info@edumax.com?subject=Inquiry&body=Can someone assist me?"><i
+                                            class="ti-email"></i>info@winway.com</a><br>
+                                    <span><a style="color: #fff"
+                                            href="tel:+(94) 76 822 85 44″>Call the EDUmax now! +(94) 76 822 85 44"><i
+                                                class="ti-mobile"></i>+(94) 76 822 85 44</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-3d-5">
+                            <div class="single_widget">
+                                <h3>Useful Links</h3>
+                                <div class="widget-list">
+                                    <ul>
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="teachers.html">Our Instructors</a></li>
+                                        <li><a href="courses.html">Courses</a></li>
+                                        <li><a href="depapartments.html">Departments</a></li>
+                                        <li><a href="result.html">Results</a></li>
+                                        <li><a href="events.html">Events</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-xs-5">
+                            <div class="single_widget">
+                                <h3>Our Services</h3>
+                                <div class="widget-list">
+                                    <ul>
+                                        <li><a href="contact.html">Contact Us</a></li>
+                                        <li><a href="courses.html">Courses</a></li>
+                                        <li><a href="apply_form.html">Admission</a></li>
+                                        <li><a href="#">Faq</a></li>
+                                        <li><a href="Administration.html">Administration</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="single_widget">
+                                <h3>Latest News</h3>
+                                <div class="widget-item">
+                                    <div class="widget-image">
+                                        <a href="#search_modal2" data-toggle="modal" data-target="#search_modal2"><img
+                                                src="assets/images/blog_01.jpg" alt="blog one" /></a>
+                                    </div>
+                                    <div class="widget-content">
+                                        <h5><a href="#search_moda2" data-toggle="modal"
+                                                data-target="#search_modal2">Robot Overcomes Uncertainty to Retrieve
+                                                Buried Objects</a></h5>
+                                        <div class="widget-meta">
+                                            <span>15 May, 2022</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="widget-item">
+                                    <div class="widget-image">
+                                        <a href="#search_modal3" data-toggle="modal" data-target="#search_modal3"><img
+                                                src="assets/images/blog_02.jpg" alt="blog one" /></a>
+                                    </div>
+                                    <div class="widget-content">
+                                        <h5><a href="#search_modal3" data-toggle="modal"
+                                                data-target="#search_modal3">Technology Helps Self-Driving Cars Learn
+                                                from Own 'Memories'</a></h5>
+                                        <div class="widget-meta">
+                                            <span>02 April, 2022</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer-bottom-wrapper border-top py-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="footer-bottom">
+                                <div class="copyright-text">
+                                    <a style="color: #fff" href="Administration.html">UUL 2022 </a>
+                                    <p>All Rights Reserved</p>
+                                </div>
+                                <div class="social-accounts">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-top">
+            <div class="scroll-icon">
+                <i class="fa fa-angle-up"></i>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <script src="assets/js/jquery-3.4.0.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/bootnavbar.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
