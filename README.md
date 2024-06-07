@@ -1,4 +1,7 @@
 # WinWay-University-Website
+A fully featured University Management System having a well designed Database Schema made as a Web Development project.
+
+This repository contains the source code for a University Management System, designed to streamline the process of university funtions for any student/users. The system allows users to view courses, view results, and logins, contact and give inquiries, administrator login, lecturer login, add/delete/update results, etc. It is built using HTML, CSS, JS PHP and MySQL Database.
 
 ## ADMIN LOGIN 
 **Username :** user
@@ -9,67 +12,15 @@ Password : pass
 **Password :** pass
 
 
-///////////////////////////////////////////////////////////////////
-//	WINWAY UNIVERSITY - DATABASE
-///////////////////////////////////////////////////////////////////
+# Technologies Used:
+## Technologies Used:
 
+- **For Frontend:** HTML, CSS, BootStrap, JavaScript
+- **For Backend:** PHP
+- **For Database:** MySQL
 
-CREATE DATABASE WinWay_University;
-USE WinWay_University;
-
-
-CREATE TABLE subscribe(
-	email		varchar(50)	NOT NULL	PRIMARY KEY
-);
-
-///////////////////////////////////////////////////////////////////
-
-CREATE TABLE contact(
-	id		int 		NOT NULL 	AUTO_INCREMENT PRIMARY KEY,
-	name		varchar(50) 	NOT NULL,
-	email		varchar(50) 	NOT NULL,
-	phone		int 		NOT NULL,
-	subject		varchar(100),
-	message		varchar(1000) 	NOT NULL
-);
-
-
-
-///////////////////////////////////////////////////////////////////
-
-CREATE TABLE registration(
-	id		int 		NOT NULL 	AUTO_INCREMENT PRIMARY KEY,
-	Fname		varchar(50) 	NOT NULL,
-	Lname		varchar(50) 	NOT NULL,
-	faculty		varchar(50) 	NOT NULL,
-	birthday 	varchar(50) 	NOT NULL,
-	PFname		varchar(50) 	NOT NULL,
-	PLname		varchar(50) 	NOT NULL,
-	address		varchar(1000) 	NOT NULL,
-	nic		varchar(12) 	NOT NULL,
-	city		varchar(50) 	NOT NULL,
-	phone		int 		NOT NULL,
-	email		varchar(50) 	NOT NULL,
-	comment		varchar(1000),
-	sign		varchar(50) 	NOT NULL
-);
-
-///////////////////////////////////////////////////////////////////
-
-CREATE TABLE results(
-	sid		int 		NOT NULL 	AUTO_INCREMENT PRIMARY KEY,
-	Fname		varchar(50)	NOT NULL,
-	Lname		varchar(50)	NOT NULL,
-	faculty		varchar(50)	NOT NULL,
-	branch		varchar(50)	NOT NULL,
-	nic		varchar(12)	NOT NULL,
-	indexNo		varchar(20)	NOT NULL,
-	semester	varchar(50)	NOT NULL,
-	subject		varchar(50)	NOT NULL,
-	grade		varchar(3)	NOT NULL,
-	comment		varchar(1000),
-	sign		varchar(50)	NOT NULL,
-);
+Pre-requisites:
+- VS Code
 
 
 # Gallery
