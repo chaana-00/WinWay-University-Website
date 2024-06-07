@@ -1,12 +1,12 @@
 # WinWay-University-Website
 
-ADMIN LOGIN 
-Username : user
+## ADMIN LOGIN 
+**Username :** user
 Password : pass
 
-TEACHER LOGIN 
-Username : teacher
-Password : pass
+## TEACHER LOGIN 
+**Username :** teacher
+**Password :** pass
 
 
 ///////////////////////////////////////////////////////////////////
@@ -70,5 +70,8 @@ CREATE TABLE results(
 	comment		varchar(1000),
 	sign		varchar(50)	NOT NULL,
 );
+
+
+# Gallery
 
 ![Winway](https://user-images.githubusercontent.com/89802304/223206220-080c1bed-52ae-44d0-88bd-c9ba5f564b2c.jpg)
