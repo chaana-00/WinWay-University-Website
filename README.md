@@ -13,7 +13,6 @@ Password : pass
 
 
 # Technologies Used:
-## Technologies Used:
 
 - **For Frontend:** HTML, CSS, BootStrap, JavaScript
 - **For Backend:** PHP
